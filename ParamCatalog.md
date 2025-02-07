@@ -473,7 +473,7 @@
 
 # Панели
 
-    ## ProtoId 434  РШ Панель с зеркалом
+## ProtoId 434  РШ Панель с зеркалом
 ![](./Pictures/WallPanels/MirrPanel.jpg)
 
     'proto_id': 434,
@@ -487,7 +487,7 @@
     'id_mirror': 5251,  # param_randomize(17)                Материал зеркала 
     'w': 800,  # random.choice(range(150, 1000))    Ширина 
 
-    ## ProtoId 435  РШ Панель ЛДСП с крючками
+## ProtoId 435  РШ Панель ЛДСП с крючками
 ![](./Pictures/WallPanels/HooksPanel.jpg)
 
     'proto_id': 435,
