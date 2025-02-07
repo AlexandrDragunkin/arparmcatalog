@@ -11,5 +11,5 @@ project:
 site:
   template: book-theme
   options:
-    favicon: a.ico
+    favicon: favicon.ico
     logo: site_logo.png
