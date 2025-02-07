@@ -1,6 +1,6 @@
-# Антресоли
+# Мебель параметрического каталога
 
-![](./Pictures/WallPanels/HooksPanel.jpg)
+## Антресоли
 
 | Параметры                       | MONO-1   | MONO-2   | DUO-2    | DUO-3   левый | DUO-3   правый | DUO-4     | TRIO-3   | TRIO-4    | TRIO-5    | TRIO-6    |
 | :------------------------------ | :------- | :------- | :------- | :------------ | :------------- | :-------- | :------- | :-------- | :-------- | :-------- |
@@ -13,9 +13,9 @@
 | Высота корпуса                  |          |          |          |               |                |           |          |           |           |           |
 | ВК, мм                          | 400-1200 | 400-1200 | 400-1200 | 400-1200      | 400-1200       | 400-1200  | 400-1200 | 400-1200  | 400-1200  | 400-1200  |
 
-## ProtoId 400  РШ Антресоль MONO-1
+### ProtoId 400  РШ Антресоль MONO-1
 
-![](./Pictures/Antresol/MONO-1.jpg)
+![MONO-1](./Pictures/Antresol/MONO-1.jpg)
 
     'proto_id': 400,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -29,9 +29,9 @@
     'polkstd1': 0.0,  # Полки в нишу
     'w': random.choice(range(250, 600)),  # Ширина
 
-## ProtoId 401  РШ Антресоль MONO-2
+### ProtoId 401  РШ Антресоль MONO-2
 
-![](./Pictures/Antresol/MONO-2.jpg)
+![MONO-2](./Pictures/Antresol/MONO-2.jpg)
 
     'proto_id': 401,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -44,9 +44,9 @@
     'polkstd1': 0.0,  # Полки в нишу
     'w': random.choice(range(500, 1000)),  # Ширина
 
-## ProtoId 402 РШ Антресоль DUO-2
+### ProtoId 402 РШ Антресоль DUO-2
 
-![](./Pictures/Antresol/DUO.jpg)
+![DUO](./Pictures/Antresol/DUO.jpg)
 
     'proto_id': 402,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -63,9 +63,9 @@
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(500, 1200)),  # Ширина
 
-## ProtoId 403 РШ Антресоль DUO-3 левый
+### ProtoId 403 РШ Антресоль DUO-3 левый
 
-![](./Pictures/Antresol/DUO-3L.jpg)
+![DUO-3L](./Pictures/Antresol/DUO-3L.jpg)
 
     'proto_id': 403,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -82,9 +82,9 @@
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(500, 1500)),  # Ширина
 
-## ProtoId 404 РШ Антресоль DUO-3 правый
+### ProtoId 404 РШ Антресоль DUO-3 правый
 
-![](./Pictures/Antresol/DUO-3R.jpg)
+![DUO-3R](./Pictures/Antresol/DUO-3R.jpg)
 
     'proto_id': 404,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -101,9 +101,9 @@
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(500, 1500)),  # Ширина
 
-## ProtoId 405 РШ Антресоль DUO-4
+### ProtoId 405 РШ Антресоль DUO-4
 
-![](./Pictures/Antresol/DUO-4.jpg)
+![DUO-4](./Pictures/Antresol/DUO-4.jpg)
 
     'proto_id': 405,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -120,9 +120,9 @@
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1000, 2000)),  # Ширина
 
-## ProtoId 406 РШ Антресоль TRIO-3
+### ProtoId 406 РШ Антресоль TRIO-3
 
-![](./Pictures/Antresol/TRIO-3.jpg)
+![TRIO-3](./Pictures/Antresol/TRIO-3.jpg)
 
     'proto_id': 406,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -143,9 +143,9 @@
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(750, 1800)),  # Ширина
 
-## ProtoId 407  РШ Антресоль TRIO-4
+### ProtoId 407  РШ Антресоль TRIO-4
 
-![](./Pictures/Antresol/TRIO-4.jpg)
+![TRIO-4](./Pictures/Antresol/TRIO-4.jpg)
 
     'proto_id': 407,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -166,9 +166,9 @@
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1000, 2000)),  # Ширина
 
-## ProtoId 408  РШ Антресоль TRIO-5
+### ProtoId 408  РШ Антресоль TRIO-5
 
-![](./Pictures/Antresol/TRIO-5.jpg)
+![TRIO-5](./Pictures/Antresol/TRIO-5.jpg)
 
     'proto_id': 408,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -189,9 +189,9 @@
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1250, 2500)),  # Ширина
 
-## ProtoId 409  РШ Антресоль TRIO-6
+### ProtoId 409  РШ Антресоль TRIO-6
 
-![](./Pictures/Antresol/TRIO-6.jpg)
+![TRIO-6](./Pictures/Antresol/TRIO-6.jpg)
 
     'proto_id': 409,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
@@ -212,7 +212,7 @@
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1500, 2790)),  # Ширина
 
-# Комоды
+## Комоды
 
   | Параметры                       | MONO-1   | DUO-2 левый | DUO-2 правый | TRIO-3    |
   | :------------------------------ | :------- | :---------- | :----------- | :-------- |
@@ -237,7 +237,7 @@
 
 ## ProtoId 422 РШ Комод MONO-1
 
-![](./Pictures/Commode/MONO-1.jpg)
+![MONO-1](./Pictures/Commode/MONO-1.jpg)
 
     'proto_id': 422,
     'blockbox1': 3,  # random.choice(range(2, 5))         Количество ящиков
@@ -252,9 +252,9 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя
     'w': 500,  # random.choice(range(500, 800))     Ширина
 
-## ProtoId 423 РШ Комод DUO-2 левый
+### ProtoId 423 РШ Комод DUO-2 левый
 
-![](./Pictures/Commode/DUO_2L.jpg)
+![DUO_2L](./Pictures/Commode/DUO_2L.jpg)
 
     'proto_id': 423,
     'blockbox1': 0,  # random.choice(range(0, 5))         Количество ящиков
@@ -275,9 +275,9 @@
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
     'w': 900,  # random.choice(range(800, 1200))    Ширина
 
-## ProtoId 424 РШ Комод DUO-2 правый
+### ProtoId 424 РШ Комод DUO-2 правый
 
-![](./Pictures/Commode/DUO_2R.jpg)
+![DUO_2R](./Pictures/Commode/DUO_2R.jpg)
 
     'proto_id': 424,
     'blockbox1': 3,  # random.choice(range(2, 5))         Количество ящиков
@@ -298,9 +298,9 @@
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
     'w': 900,  # random.choice(range(800, 1200))    Ширина
 
-## ProtoId 425 РШ Комод TRIO-3
+### ProtoId 425 РШ Комод TRIO-3
 
-![](./Pictures/Commode/TRIO-3.jpg)
+![TRIO-3](./Pictures/Commode/TRIO-3.jpg)
 
     'proto_id': 425,
     'blockbox1': 0,  # random.choice(range(0, 0))         Количество ящиков
@@ -326,7 +326,7 @@
     'polkstd3': 0,  # random.choice(range(0, 5))         Полки в нишу
     'w': 1300,  # random.choice(range(1200, 1600))   Ширина
 
-# РШ Обувницы
+## РШ Обувницы
 
   | Параметры                        | обувница MONO-1 с одним механизмом | обувница MONO-1 с двумя механизмами | обувница   MONO-1 с одним механизмом и ящиком | обувница MONO-1 с двумя механизмами и ящиком |
   | :------------------------------- | :--------------------------------- | :---------------------------------- |   :------------------------------------------ | :------------------------------------------- |
@@ -337,9 +337,9 @@
   | Глубина корпуса  ГК, мм          | 320                                | 320                                 |   320                                         | 320                                          |
   | Высота корпуса  ВК, мм           | 447-507                            | 805-925                             | 590-650                                     | 948-1068                                     |
 
-## ProtoId 427 РШ Обувница MONO-1-1
+### ProtoId 427 РШ Обувница MONO-1-1
 
-![](./Pictures/Shoemaker/Mono-1-1.jpg)
+![Mono-1-1](./Pictures/Shoemaker/Mono-1-1.jpg)
 
     'proto_id': 427,
     'colorcmmater': 22393,  # param_randomize(440)               Цвет корпуса 
@@ -352,9 +352,9 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
 
-## ProtoId 428 РШ Обувница MONO-1-2
+### ProtoId 428 РШ Обувница MONO-1-2
 
-![](./Pictures/Shoemaker/Mono-1-2.jpg)
+![Mono-1-2](./Pictures/Shoemaker/Mono-1-2.jpg)
 
     'proto_id': 428,
     'colorcmmater': 22378,  # param_randomize(440)               Цвет корпуса 
@@ -368,9 +368,9 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
 
-## ProtoId 429 РШ Обувница MONO-1-1-ящик
+### ProtoId 429 РШ Обувница MONO-1-1-ящик
 
-![](./Pictures/Shoemaker/Mono-1-1-box.jpg)
+![Mono-1-1-box](./Pictures/Shoemaker/Mono-1-1-box.jpg)
 
     'proto_id': 429,
     'colorcmmater': 22378,  # param_randomize(440)               Цвет корпуса 
@@ -387,9 +387,9 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
 
-## ProtoId 430  РШ Обувница MONO-1-2-ящик
+### ProtoId 430  РШ Обувница MONO-1-2-ящик
 
-![](./Pictures/Shoemaker/Mono-1-2-box.jpg)
+![Mono-1-2-box](./Pictures/Shoemaker/Mono-1-2-box.jpg)
 
     'proto_id': 430,
     'colorcmmater': 22378,  # param_randomize(440)               Цвет корпуса 
@@ -406,7 +406,7 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
 
-# Тумбы
+## Тумбы
 
 | Параметры                       | DUO-2    | DUO-3 левый | DUO-3 правый |
 | :------------------------------ | :------- | :---------- | :----------- |
@@ -419,9 +419,9 @@
 | Высота корпуса                  |          |             |              |
 | ВК, мм                          | 440      | 440         | 440          |
 
-## ProtoId 431  РШ Тумба DUO-2
+### ProtoId 431  РШ Тумба DUO-2
 
-![](./Pictures/Pedestal/DUO-2.jpg)
+![DUO-2](./Pictures/Pedestal/DUO-2.jpg)
 
     'proto_id': 431,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
@@ -437,9 +437,9 @@
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'w': 800,  # random.choice(range(500, 1200))    Ширина 
 
-## ProtoId 432 РШ Тумба DUO-3 левый
+### ProtoId 432 РШ Тумба DUO-3 левый
 
-![](./Pictures/Pedestal/DUO-3L.jpg)
+![DUO-3L](./Pictures/Pedestal/DUO-3L.jpg)
 
     'proto_id': 432,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
@@ -455,9 +455,9 @@
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'w': 800,  # random.choice(range(750, 1500))    Ширина 
 
-## ProtoId 433  РШ Тумба DUO-3 правый
+### ProtoId 433  РШ Тумба DUO-3 правый
 
-![](./Pictures/Pedestal/DUO-3P.jpg)
+![DUO-3P](./Pictures/Pedestal/DUO-3P.jpg)
 
     'proto_id': 433,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
@@ -473,7 +473,7 @@
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'w': 800,  # random.choice(range(750, 1500))    Ширина 
 
-# Панели
+## Панели
 
 Стеновые панели характеризуют три основных параметра:
 
@@ -487,9 +487,9 @@
 - **n_hoock** - количество крючков
 - **id_fixnaves** - id крепежа для навеса
 
-## ProtoId 434  РШ Панель с зеркалом
+### ProtoId 434  РШ Панель с зеркалом
 
-![](./Pictures/WallPanels/MirrPanel.jpg)
+![mirrpan](./Pictures/wallpanels/mirrpan.jpg)
 
     'proto_id': 434,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
@@ -502,9 +502,9 @@
     'id_mirror': 5251,  # param_randomize(17)                Материал зеркала 
     'w': 800,  # random.choice(range(150, 1000))    Ширина 
 
-## ProtoId 435  РШ Панель ЛДСП с крючками
+### ProtoId 435  РШ Панель ЛДСП с крючками
 
-![](./Pictures/WallPanels/HooksPanel.jpg)
+![hookspan](./Pictures/wallpanels/hookspan.jpg)
 
     'proto_id': 435,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
@@ -517,7 +517,7 @@
     'n_hoock': 3,  # random.choice(range(2, 5))         Количество крючков 
     'w': 800,  # random.choice(range(400, 1500))    Ширина 
 
-### id_hoock
+#### id_hoock
 
 дополнительно надо передавать n_hoock от 3 до 5 шт
 
@@ -531,7 +531,7 @@
 | ARGUS Крючок трехрожковый хром матовый   | 24569  |
 | ARGUS Крючок трехрожковый черный матовый | 24570  |
 
-### id_mensola
+#### id_mensola
 
 | Наименование                                               | ID     |
 | :--------------------------------------------------------- | :----- |
