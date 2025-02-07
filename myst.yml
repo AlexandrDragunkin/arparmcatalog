@@ -13,3 +13,9 @@ site:
   options:
     favicon: favicon.ico
     logo: site_logo.png
+myst:
+  html_meta:
+    "description lang=en": "metadata description"
+    "description lang=ru": "метаданные описание"
+    "keywords": "Sphinx, MyST"
+    "property=og:locale": "ru_RU"
