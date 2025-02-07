@@ -2,7 +2,7 @@
 version: 1
 project:
   id: 5a758024-3914-4ab2-a181-b37567aee55f
-  title: Param Catalog
+  title: Параметрический каталог
   # description:
   # keywords: []
   authors: [Aleksandr Dragunkin]
@@ -10,6 +10,6 @@ project:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
   template: book-theme
-  # options:
+  options:
   #   favicon: favicon.ico
-  #   logo: site_logo.png
+    logo: site_logo.png
