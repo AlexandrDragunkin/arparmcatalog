@@ -2,10 +2,10 @@
 version: 1
 project:
   id: 5a758024-3914-4ab2-a181-b37567aee55f
-  # title:
+  title: Param Catalog
   # description:
   # keywords: []
-  # authors: []
+  authors: [Aleksandr Dragunkin]
   # github:
   # To autogenerate a Table of Contents, run "myst init --write-toc"
 site:
