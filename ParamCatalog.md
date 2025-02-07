@@ -486,6 +486,7 @@
 - **id_fixnaves** - id крепежа для навеса
 
 ## ProtoId 434  РШ Панель с зеркалом
+
 ![](./Pictures/WallPanels/MirrPanel.jpg)
 
     'proto_id': 434,
@@ -500,6 +501,7 @@
     'w': 800,  # random.choice(range(150, 1000))    Ширина 
 
 ## ProtoId 435  РШ Панель ЛДСП с крючками
+
 ![](./Pictures/WallPanels/HooksPanel.jpg)
 
     'proto_id': 435,
