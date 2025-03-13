@@ -34,6 +34,8 @@
     'fasrtype1': 10841.0,  # Рисунок фасада
     'h': random.choice(range(400, 1200)),  # Высота
     'hantype': 24459.0,  # Тип ручки
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
     'openside1': 1.0,  # Открывание двери
     'polkstd1': 0.0,  # Полки в нишу
     'w': random.choice(range(250, 600)),  # Ширина
@@ -52,6 +54,8 @@
     'hantype': 24459.0,  # Тип ручки
     'polkstd1': 0.0,  # Полки в нишу
     'w': random.choice(range(500, 1000)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
 
 ### ProtoId 402 РШ Антресоль DUO-2
 
@@ -71,6 +75,9 @@
     'polkstd1': 0.0,  # Полки в нишу справа
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(500, 1200)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей     
 
 ### ProtoId 403 РШ Антресоль DUO-3 левый
 
@@ -90,6 +97,9 @@
     'polkstd1': 0.0,  # Полки в нишу справа
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(500, 1500)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 404 РШ Антресоль DUO-3 правый
 
@@ -109,6 +119,9 @@
     'polkstd1': 0.0,  # Полки в нишу справа
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(500, 1500)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 405 РШ Антресоль DUO-4
 
@@ -128,6 +141,9 @@
     'polkstd1': 0.0,  # Полки в нишу справа
     'polkstd2': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1000, 2000)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 406 РШ Антресоль TRIO-3
 
@@ -151,6 +167,10 @@
     'polkstd2': 0.0,  # Полки в нишу середина
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(750, 1800)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 407  РШ Антресоль TRIO-4
 
@@ -174,6 +194,10 @@
     'polkstd2': 0.0,  # Полки в нишу середина
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1000, 2000)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 408  РШ Антресоль TRIO-5
 
@@ -197,6 +221,10 @@
     'polkstd2': 0.0,  # Полки в нишу середина
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1250, 2500)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 409  РШ Антресоль TRIO-6
 
@@ -220,6 +248,10 @@
     'polkstd2': 0.0,  # Полки в нишу середина
     'polkstd3': 0.0,  # Полки в нишу слева
     'w': random.choice(range(1500, 2790)),  # Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ## Комоды
 
@@ -260,6 +292,7 @@
     'hantype': 24459,  # param_randomize(23)                Тип ручки
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя
     'w': 500,  # random.choice(range(500, 800))     Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
 
 ### ProtoId 423 РШ Комод DUO-2 левый
 
@@ -283,6 +316,9 @@
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
     'w': 900,  # random.choice(range(800, 1200))    Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 424 РШ Комод DUO-2 правый
 
@@ -306,6 +342,9 @@
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
     'w': 900,  # random.choice(range(800, 1200))    Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 425 РШ Комод TRIO-3
 
@@ -334,6 +373,10 @@
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
     'polkstd3': 0,  # random.choice(range(0, 5))         Полки в нишу
     'w': 1300,  # random.choice(range(1200, 1600))   Ширина
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
 
 ## РШ Обувницы
 
@@ -445,6 +488,9 @@
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'w': 800,  # random.choice(range(500, 1200))    Ширина 
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 432 РШ Тумба DUO-3 левый
 
@@ -463,6 +509,9 @@
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'w': 800,  # random.choice(range(750, 1500))    Ширина 
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ### ProtoId 433  РШ Тумба DUO-3 правый
 
@@ -481,6 +530,9 @@
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'w': 800,  # random.choice(range(750, 1500))    Ширина 
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+    'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
 
 ## Панели
 
