@@ -1,5 +1,22 @@
 # Мебель параметрического каталога
 
+## Терминал
+
+![Terminal](./Pictures/Terminal.jpg)
+
+| 'proto_id': 311,                                                                                     |
+| :--------------------------------------------------------------------------------------------------- |
+| 'band': 6793,  # param_randomize(18)                Тип кромки корпуса                               |
+| 'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса                            |
+| 'count': 5,  #                                    Число полок                                        |
+| 'd': 413,  # random.choice(range(402, 900))     Глубина                                              |
+| 'h': 2058,  # random.choice(range(2058, 2700))   Высота                                              |
+| 'hcok': 100,  # random.choice(range(41, 250))      Высота цоколя                                     |
+| 'prmater': 0,  # param_randomize(330)               Материал                                         |
+| 'rshcomplect': 11165,  # param_randomize(474)               Набор для РШ (ключ инструкци    крепежи) |
+| 'symmetry': 1,  # random.choice(range(0,1)           Признак симметрии                               |
+| 'w': 400,  # random.choice(range(200, 600))     Ширина                                               |
+
 ## Антресоли
 
 | Параметры                       | MONO-1   | MONO-2   | DUO-2    | DUO-3   левый | DUO-3   правый | DUO-4     | TRIO-3   | TRIO-4    | TRIO-5    | TRIO-6    |
