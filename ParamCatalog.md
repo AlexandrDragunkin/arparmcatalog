@@ -2,7 +2,7 @@
 
 ## Терминал ProtoID=311
 
-![_terminal](./Pictures/Terminal.jpg)
+![_terminal](./Pictures/terminal.jpg)
 
 | 'proto_id': 311,                                                                                     |
 | 'band': 6793,  # param_randomize(18)                Тип кромки корпуса                               |
