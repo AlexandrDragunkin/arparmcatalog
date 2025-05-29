@@ -1,11 +1,10 @@
 # Мебель параметрического каталога
 
-## Терминал
+## Терминал ProtoID=311
 
-![Terminal](./Pictures/Terminal.jpg)
+![_terminal](./Pictures/Terminal.jpg)
 
 | 'proto_id': 311,                                                                                     |
-| :--------------------------------------------------------------------------------------------------- |
 | 'band': 6793,  # param_randomize(18)                Тип кромки корпуса                               |
 | 'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса                            |
 | 'count': 5,  #                                    Число полок                                        |
@@ -14,7 +13,7 @@
 | 'hcok': 100,  # random.choice(range(41, 250))      Высота цоколя                                     |
 | 'prmater': 0,  # param_randomize(330)               Материал                                         |
 | 'rshcomplect': 11165,  # param_randomize(474)               Набор для РШ (ключ инструкци    крепежи) |
-| 'symmetry': 1,  # random.choice(range(0,1)           Признак симметрии                               |
+| 'symmetry': 1,  # random.choice(range(0,1)           Признак симметрии 0- Левый 1-правый                         |
 | 'w': 400,  # random.choice(range(200, 600))     Ширина                                               |
 
 ## Антресоли
