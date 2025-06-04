@@ -14,8 +14,8 @@ project:
     - file: 999_prim.md
 
 site:
-  # template: book-theme
-  template: article-theme
+  template: book-theme
+  # template: article-theme
   # template: sphinx-book-theme
   options:
     favicon: favicon.ico
