@@ -11,6 +11,7 @@ project:
 
   toc:
     - file: 001_ParamCatalog.md
+    - file: 002_ParamCatalog.md
     - file: 999_prim.md
 
 site:
