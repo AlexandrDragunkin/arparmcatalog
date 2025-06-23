@@ -1,6 +1,6 @@
 # Мебель параметрического каталога
 
-## ProtoID 311 Терминал 
+## ProtoID 311 Терминал
 
 ![_terminal](./Pictures/terminal.jpg)
 
