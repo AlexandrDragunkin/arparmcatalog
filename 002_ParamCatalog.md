@@ -59,7 +59,7 @@
 
 ### ProtoId 438 РШ СУ MONO-1 Шкаф в нишу над инсталляцией
 
-![iMono1](./Pictures/Bathroom/iMono_1.jpg)
+![iMono1](./Pictures/bathroom/iMono_1.jpg)
 
 ```json
     'proto_id': 438,
