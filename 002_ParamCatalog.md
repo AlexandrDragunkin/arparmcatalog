@@ -59,9 +59,12 @@
 
 ### ProtoId 438 РШ СУ MONO-1 Шкаф в нишу над инсталляцией
 
+![iMono1](./Pictures/Bathroom/iMono_1.jpg)
+
 ```json
     'proto_id': 438,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+    'colordbmater': 22390  # param_randomize(440)               Цвет добора 
     'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
     'd': 80,  # random.choice(range(80, 300))      Глубина 
     'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
@@ -71,6 +74,7 @@
     'dobor_tw': 0,  #                                    Размер добора сверху 
 
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+    'fix_shelve': 0,  # param_randomize(488)               Тип крепежа полок 
     'h': 600,  # random.choice(range(600, 1800))    Высота 
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
 
