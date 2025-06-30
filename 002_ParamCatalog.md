@@ -59,6 +59,12 @@
 
 ### ProtoId 438 РШ СУ MONO-1 Шкаф в нишу над инсталляцией
 
+:::{internal}
+
+Для парметра `fix_shelve` Тип крепежа полок смотри
+[Типы полкодержателей](https://alexandrdragunkin.github.io/arparmcatalog/prim#id)
+:::
+
 ![iMono1](./Pictures/bathroom/iMono_1.jpg)
 
 ```json
@@ -74,7 +80,7 @@
     'dobor_tw': 0,  #                                    Размер добора сверху 
 
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
-    'fix_shelve': 0,  # param_randomize(488)               Тип крепежа полок 
+    'fix_shelve': 10992,  # param_randomize(488)               Тип крепежа полок 
     'h': 600,  # random.choice(range(600, 1800))    Высота 
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
 
