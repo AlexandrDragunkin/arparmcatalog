@@ -59,7 +59,7 @@
 
 ### ProtoId 438 РШ СУ MONO-1 Шкаф в нишу над инсталляцией
 
-:::{internal}
+:::{important}
 
 Для парметра `fix_shelve` Тип крепежа полок смотри
 [Типы полкодержателей](https://alexandrdragunkin.github.io/arparmcatalog/prim#id)
