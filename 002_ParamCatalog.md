@@ -72,17 +72,13 @@
 ```json
         'proto_id': 438,
  
-        'band': 6793,  # param_randomize(18)                Тип кромки корпуса 
-
-        'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+       'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
 
         'colordbmater': 22390,  # param_randomize(440)               Цвет добора 
 
         'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
 
         'd': 80,  # random.choice(range(80, 300))      Глубина 
-
-        'dbband': 6793,  # param_randomize(18)                Тип кромки добора 
 
         'dbmater': 5198,  # param_randomize(330)               Материал добора 
 
@@ -166,7 +162,6 @@
 
         'd': 80,  # random.choice(range(80, 300))      Глубина 
 
-        'dbband': 6793,  # param_randomize(18)                Тип кромки добора 
         'dbmater': 5198,  # param_randomize(330)               Материал добора 
         'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
 
@@ -175,10 +170,13 @@
         'dobor_rw': 0,  #                                    Размер добора справа 
         'dobor_tw': 0,  #                                    Размер добора сверху 
 
-        'fasmat': 0,  # param_randomize(38)                Материал Фасада Афина/Спарта... 
+
         'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+
         'fix_shelve': 10992,  # param_randomize(488)               Тип крепежа полок 
+
         'h': 600,  # random.choice(range(600, 1800))    Высота 
+
         'hantype': 24459,  # param_randomize(23)                Тип ручки 
 
         'htwovs1_1': 0,  #                                    От низа до середины первой перемычки 
@@ -210,6 +208,7 @@
         'typevs1_1': 1,  # param_randomize(455)               Тип нижней филёнки 
         'typevs2_1': 1,  # param_randomize(455)               Тип средней филёнки 
         'typevs3_1': 1,  # param_randomize(455)               Тип верхней филёнки 
+        
         'w': 800,  # random.choice(range(500, 1100))    Ширина 
 ```
 
