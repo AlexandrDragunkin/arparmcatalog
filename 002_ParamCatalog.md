@@ -405,6 +405,7 @@
         'w': 800,  # random.choice(range(500, 1100))    Ширина 
 
 ```
+
 ## Навесные шкафы
 
 | Параметры                       | MONO-1   | MONO-2   | DUO-2    |
@@ -420,9 +421,15 @@
 
 ### ProtoId 443 РШ СУ MONO-1 Навесной шкаф
 
+![tMono1](.\Pictures\bathroom\tMono_1.jpg)
+
 ### ProtoId 444 РШ СУ MONO-2 Навесной шкаф
 
+![tMono2](.\Pictures\bathroom\tMono_2.jpg)
+
 ### ProtoId 445 РШ СУ DUO-2 Навесной шкаф
+
+![tDuo](.\Pictures\bathroom\tDuo.jpg)
 
 ## Напольные шкафы
 
