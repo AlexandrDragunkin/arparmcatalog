@@ -421,15 +421,15 @@
 
 ### ProtoId 443 РШ СУ MONO-1 Навесной шкаф
 
-![tMono1](.\Pictures\bathroom\tMono_1.jpg)
+![tMono1](./Pictures/bathroom/tMono_1.jpg)
 
 ### ProtoId 444 РШ СУ MONO-2 Навесной шкаф
 
-![tMono2](.\Pictures\bathroom\tMono_2.jpg)
+![tMono2](./Pictures/bathroom/tMono_2.jpg)
 
 ### ProtoId 445 РШ СУ DUO-2 Навесной шкаф
 
-![tDuo](.\Pictures\bathroom\tDuo.jpg)
+![tDuo](./Pictures/bathroom/tDuo.jpg)
 
 ## Напольные шкафы
 
