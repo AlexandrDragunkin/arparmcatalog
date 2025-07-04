@@ -4,6 +4,8 @@
 
 ![_terminal](./Pictures/terminal.jpg)
 
+```python
+{
     'proto_id': 311,                                                                                     
     'band': 6793,  # param_randomize(18)                Тип кромки корпуса                               
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса                            
@@ -15,6 +17,8 @@
     'rshcomplect': 11165,  # param_randomize(474)               Набор для РШ (ключ инструкци    крепежи) 
     'symmetry': 1,  # random.choice(range(0,1)           Признак симметрии 0- Левый 1-правый                        |
     'w': 400,  # random.choice(range(200, 600))     Ширина                                               
+}
+```
 
 ## Антресоли
 
@@ -33,6 +37,8 @@
 
 ![MONO-1](./Pictures/Antresol/MONO-1.jpg)
 
+```python
+{
     'proto_id': 400,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -46,11 +52,15 @@
     'openside1': 1.0,  # Открывание двери
     'polkstd1': 0.0,  # Полки в нишу
     'w': random.choice(range(250, 600)),  # Ширина
+}
+```
 
 ### ProtoId 401  РШ Антресоль MONO-2
 
 ![MONO-2](./Pictures/Antresol/MONO-2.jpg)
 
+```python
+{
     'proto_id': 401,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -68,6 +78,8 @@
 
 ![DUO](./Pictures/Antresol/DUO.jpg)
 
+```python
+{
     'proto_id': 402,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -84,12 +96,16 @@
     'w': random.choice(range(500, 1200)),  # Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
-    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей     
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ### ProtoId 403 РШ Антресоль DUO-3 левый
 
 ![DUO-3L](./Pictures/Antresol/DUO-3L.jpg)
 
+```python
+{
     'proto_id': 403,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -106,12 +122,16 @@
     'w': random.choice(range(500, 1500)),  # Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
-    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
+}
+```
 
 ### ProtoId 404 РШ Антресоль DUO-3 правый
 
 ![DUO-3R](./Pictures/Antresol/DUO-3R.jpg)
 
+```python
+{
     'proto_id': 404,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -128,12 +148,16 @@
     'w': random.choice(range(500, 1500)),  # Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
-    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
+}
+```
 
 ### ProtoId 405 РШ Антресоль DUO-4
 
 ![DUO-4](./Pictures/Antresol/DUO-4.jpg)
 
+```python
+{
     'proto_id': 405,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -150,12 +174,16 @@
     'w': random.choice(range(1000, 2000)),  # Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
-    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
+}
+```
 
 ### ProtoId 406 РШ Антресоль TRIO-3
 
 ![TRIO-3](./Pictures/Antresol/TRIO-3.jpg)
 
+```python
+{
     'proto_id': 406,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -177,12 +205,16 @@
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
-    'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+    'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
+}
+```
 
 ### ProtoId 407  РШ Антресоль TRIO-4
 
 ![TRIO-4](./Pictures/Antresol/TRIO-4.jpg)
 
+```python
+{
     'proto_id': 407,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -205,11 +237,15 @@
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
     'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ### ProtoId 408  РШ Антресоль TRIO-5
 
 ![TRIO-5](./Pictures/Antresol/TRIO-5.jpg)
 
+```python
+{
     'proto_id': 408,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -232,11 +268,15 @@
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
     'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ### ProtoId 409  РШ Антресоль TRIO-6
 
 ![TRIO-6](./Pictures/Antresol/TRIO-6.jpg)
 
+```python
+{
     'proto_id': 409,
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
@@ -259,6 +299,8 @@
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
     'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ## Комоды
 
@@ -287,6 +329,8 @@
 
 ![MONO-1](./Pictures/Commode/MONO-1.jpg)
 
+```python
+{
     'proto_id': 422,
     'blockbox1': 3,  # random.choice(range(2, 5))         Количество ящиков
     'bxtype': 10804,  # param_randomize(475)               Тип ящика
@@ -300,11 +344,15 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя
     'w': 500,  # random.choice(range(500, 800))     Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
+}
+```
 
 ### ProtoId 423 РШ Комод DUO-2 левый
 
 ![DUO_2L](./Pictures/Commode/DUO_2L.jpg)
 
+```python
+{
     'proto_id': 423,
     'blockbox1': 0,  # random.choice(range(0, 5))         Количество ящиков
     'blockbox2': 3,  # random.choice(range(2, 5))         Количество ящиков
@@ -326,11 +374,15 @@
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ### ProtoId 424 РШ Комод DUO-2 правый
 
 ![DUO_2R](./Pictures/Commode/DUO_2R.jpg)
 
+```python
+{
     'proto_id': 424,
     'blockbox1': 3,  # random.choice(range(2, 5))         Количество ящиков
     'blockbox2': 0,  # random.choice(range(0, 0))         Количество ящиков
@@ -352,11 +404,15 @@
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ### ProtoId 425 РШ Комод TRIO-3
 
 ![TRIO-3](./Pictures/Commode/TRIO-3.jpg)
 
+```python
+{
     'proto_id': 425,
     'blockbox1': 0,  # random.choice(range(0, 0))         Количество ящиков
     'blockbox2': 0,  # random.choice(range(2, 5))         Количество ящиков
@@ -384,6 +440,8 @@
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
     'n1delh_3': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
+}
+```
 
 ## РШ Обувницы
 
@@ -400,6 +458,8 @@
 
 ![Mono-1-1](./Pictures/Shoemaker/Mono-1-1.jpg)
 
+```python
+{
     'proto_id': 427,
     'colorcmmater': 22393,  # param_randomize(440)               Цвет корпуса 
     'colorfsmat1': 22378,  # param_randomize(440)               Цвет фасада Прайм 
@@ -410,11 +470,15 @@
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
+}
+```
 
 ### ProtoId 428 РШ Обувница MONO-1-2
 
 ![Mono-1-2](./Pictures/Shoemaker/Mono-1-2.jpg)
 
+```python
+{
     'proto_id': 428,
     'colorcmmater': 22378,  # param_randomize(440)               Цвет корпуса 
     'colorfsmat1': 22393,  # param_randomize(440)               Цвет фасада Прайм 
@@ -426,11 +490,15 @@
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
+}
+```
 
 ### ProtoId 429 РШ Обувница MONO-1-1-ящик
 
 ![Mono-1-1-box](./Pictures/Shoemaker/Mono-1-1-box.jpg)
 
+```python
+{
     'proto_id': 429,
     'colorcmmater': 22378,  # param_randomize(440)               Цвет корпуса 
     'colorfsmat1': 22393,  # param_randomize(440)               Цвет фасада Прайм 
@@ -445,11 +513,15 @@
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
+}
+```
 
 ### ProtoId 430  РШ Обувница MONO-1-2-ящик
 
 ![Mono-1-2-box](./Pictures/Shoemaker/Mono-1-2-box.jpg)
 
+```python
+{
     'proto_id': 430,
     'colorcmmater': 22378,  # param_randomize(440)               Цвет корпуса 
     'colorfsmat1': 22393,  # param_randomize(440)               Цвет фасада Прайм 
@@ -464,6 +536,8 @@
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
+}
+```
 
 ## Тумбы
 
@@ -482,6 +556,8 @@
 
 ![DUO-2](./Pictures/Pedestal/DUO-2.jpg)
 
+```python
+{
     'proto_id': 431,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
     'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
@@ -498,11 +574,15 @@
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ### ProtoId 432 РШ Тумба DUO-3 левый
 
 ![DUO-3L](./Pictures/Pedestal/DUO-3L.jpg)
 
+```python
+{
     'proto_id': 432,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
     'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
@@ -519,11 +599,15 @@
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ### ProtoId 433  РШ Тумба DUO-3 правый
 
 ![DUO-3P](./Pictures/Pedestal/DUO-3P.jpg)
 
+```python
+{
     'proto_id': 433,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
     'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
@@ -540,6 +624,8 @@
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей   
+}
+```
 
 ## Панели
 
@@ -559,6 +645,8 @@
 
 ![mirrpan](./Pictures/wallpanels/mirrpan.jpg)
 
+```python
+{
     'proto_id': 434,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
     'cutsize_mirr': 1,  #                                    Подрез зеркала по стороне 
@@ -569,11 +657,15 @@
     'id_mirband': 16473,  # param_randomize(18)                Кромка зеркала 
     'id_mirror': 5251,  # param_randomize(17)                Материал зеркала 
     'w': 800,  # random.choice(range(150, 1000))    Ширина 
+}
+```
 
 ### ProtoId 435  РШ Панель ЛДСП с крючками
 
 ![hookspan](./Pictures/wallpanels/hookspan.jpg)
 
+```python
+{
     'proto_id': 435,
     'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
     'd': 266,  # random.choice(range(16, 500))      Глубина 
@@ -584,3 +676,5 @@
     'id_mensola': 24572,  # param_randomize(482)               Менсола для полки 
     'n_hoock': 3,  # random.choice(range(2, 5))         Количество крючков 
     'w': 800,  # random.choice(range(400, 1500))    Ширина 
+}
+```
