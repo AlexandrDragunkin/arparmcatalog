@@ -453,9 +453,110 @@
 
 ![tMono2](./Pictures/bathroom/tMono_2.jpg)
 
+```python
+{
+        'proto_id': 444,
+
+        'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+        'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+        'd': 200,  # random.choice(range(130, 350))     Глубина 
+        'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+
+
+        'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+        'h': 600,  # random.choice(range(400, 1200))    Высота 
+        'hantype': 24459,  # param_randomize(23)                Тип ручки 
+
+       
+        'htwovs1_1': 0,  #                                    От низа до середины первой перемычки 
+        'htwovs2_1': 0,  #                                    От верха до середины второй перемычки 
+        'htwovs3_1': 0,  #                                    От низа до середины третьей перемычки 
+        
+        'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+        'n1delw_1': 0,  # param_randomize(368)               Низ фил шир кол-во делителей 
+       
+        'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
+
+        'polkstd1h1': 0,  #                                    Позиция высоты полки 1 
+        'polkstd1h2': 0,  #                                    Позиция высоты полки 2 
+        'polkstd1h3': 0,  #                                    Позиция высоты полки 3 
+        'polkstd1h4': 0,  #                                    Позиция высоты полки 4 
+        'polkstd1h5': 0,  #                                    Позиция высоты полки 5 
+
+
+        'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель 
+
+        'typevs1_1': 1,  # param_randomize(455)               Тип нижней филёнки 
+        'typevs2_1': 1,  # param_randomize(455)               Тип средней филёнки 
+        'typevs3_1': 1,  # param_randomize(455)               Тип верхней филёнки 
+        'w': 800,  # random.choice(range(500, 1100))    Ширина 
+    }
+```
+
 ### ProtoId 445 РШ СУ DUO-2 Навесной шкаф
 
 ![tDuo](./Pictures/bathroom/tDuo.jpg)
+
+```python
+{
+        'proto_id': 445,
+
+        'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+        'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+        'colorfsmat2': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+        'd': 200,  # random.choice(range(130, 350))     Глубина 
+        'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+        'decofsmatc2': 0,  # param_randomize(454)               MDF Отделка фасада 
+ 
+        'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+        'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
+        'h': 600,  # random.choice(range(400, 1200))    Высота 
+        'hantype': 24459,  # param_randomize(23)                Тип ручки 
+
+        'htwovs1_1': 0,  #                                    От низа до середины первой перемычки 
+        'htwovs1_2': 0,  #                                    От низа до середины первой перемычки 
+        'htwovs2_1': 0,  #                                    От верха до середины второй перемычки 
+        'htwovs2_2': 0,  #                                    От верха до середины второй перемычки 
+        'htwovs3_1': 0,  #                                    От низа до середины третьей перемычки 
+        'htwovs3_2': 0,  #                                    От низа до середины третьей перемычки 
+
+        'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+        'n1delh_2': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
+        'n1delw_1': 0,  # param_randomize(368)               Низ фил шир кол-во делителей 
+        'n1delw_2': 0,  # param_randomize(368)               Низ фил шир кол-во делителей 
+
+        'openside1': 1,  # param_randomize(28)                Открывание правой двери  
+        'openside2': 2,  # param_randomize(28)                Открывание левой двери  
+
+
+        'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
+
+        'polkstd1h1': 0,  #                                    Позиция высоты полки 1 
+        'polkstd1h2': 0,  #                                    Позиция высоты полки 2 
+        'polkstd1h3': 0,  #                                    Позиция высоты полки 3 
+        'polkstd1h4': 0,  #                                    Позиция высоты полки 4 
+        'polkstd1h5': 0,  #                                    Позиция высоты полки 5 
+
+        'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
+
+        'polkstd2h1': 0,  #                                    Позиция высоты полки 1 
+        'polkstd2h2': 0,  #                                    Позиция высоты полки 2 
+        'polkstd2h3': 0,  #                                    Позиция высоты полки 3 
+        'polkstd2h4': 0,  #                                    Позиция высоты полки 4 
+        'polkstd2h5': 0,  #                                    Позиция высоты полки 5 
+
+        'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель 
+
+        'typevs1_1': 1,  # param_randomize(455)               Тип нижней филёнки 
+        'typevs1_2': 1,  # param_randomize(455)               Тип нижней филёнки 
+        'typevs2_1': 1,  # param_randomize(455)               Тип средней филёнки 
+        'typevs2_2': 1,  # param_randomize(455)               Тип средней филёнки 
+        'typevs3_1': 1,  # param_randomize(455)               Тип верхней филёнки 
+        'typevs3_2': 1,  # param_randomize(455)               Тип верхней филёнки 
+        'w': 800,  # random.choice(range(500, 1100))    Ширина 
+
+    }
+```
 
 ## Напольные шкафы
 
