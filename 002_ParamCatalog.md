@@ -423,6 +423,32 @@
 
 ![tMono1](./Pictures/bathroom/tMono_1.jpg)
 
+```python
+ {      'proto_id': 443,
+
+        'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+        'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+        'd': 200,  # random.choice(range(130, 350))     Глубина 
+        'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+
+        'doub_r': 0,  # random.choice(range(0,1)           Две ручки 
+
+        'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+        'h': 600,  # random.choice(range(400, 1200))    Высота 
+
+        'openside1': 1,  # param_randomize(28)                Открывание двери 
+        'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
+
+        'polkstd1h1': 0,  #                                    Позиция высоты полки 1 
+        'polkstd1h2': 0,  #                                    Позиция высоты полки 2 
+        'polkstd1h3': 0,  #                                    Позиция высоты полки 3 
+        'polkstd1h4': 0,  #                                    Позиция высоты полки 4 
+        'polkstd1h5': 0,  #                                    Позиция высоты полки 5 
+
+        'w': 500,  # random.choice(range(250, 550))     Ширина корпуса 
+ }
+```
+
 ### ProtoId 444 РШ СУ MONO-2 Навесной шкаф
 
 ![tMono2](./Pictures/bathroom/tMono_2.jpg)
