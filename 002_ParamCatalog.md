@@ -69,8 +69,8 @@
 
 ![iMono1](./Pictures/bathroom/iMono_1.jpg)
 
-```json
-        'proto_id': 438,
+```python
+       {'proto_id': 438,
  
        'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
 
@@ -137,6 +137,7 @@
 
         'w': 500,  # random.choice(range(250, 550))     Ширина 
 
+}
 ```
 
 ### ProtoId 439 РШ СУ MONO-2 Шкаф в нишу над инсталляцией
@@ -151,8 +152,8 @@
 
 ![iMono2](./Pictures/bathroom/iMono_2.jpg)
 
-```json
-        'proto_id': 439,
+```python
+       {'proto_id': 439,
 
         'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
 
@@ -210,6 +211,7 @@
         'typevs3_1': 1,  # param_randomize(455)               Тип верхней филёнки 
         
         'w': 800,  # random.choice(range(500, 1100))    Ширина 
+}
 ```
 
 ## Корпусные шкафы, встраиваемые в нишу над инсталляцией
@@ -229,8 +231,8 @@
 
 ![biMono1](./Pictures/bathroom/biMono_1.jpg)
 
-```json
-        'proto_id': 440,
+```python
+       {'proto_id': 440,
 
         'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
 
@@ -279,14 +281,15 @@
         'typevs2_1': 1,  # param_randomize(455)               Тип средней филёнки 
         'typevs3_1': 1,  # param_randomize(455)               Тип верхней филёнки 
         'w': 500,  # random.choice(range(250, 550))     Ширина 
+}
 ```
 
 ### ProtoId 441 РШ СУ MONO-2 Корпусной Шкаф в нишу над инсталляцией
 
 ![biMono2](./Pictures/bathroom/biMono_2.jpg)
 
-```json
-        'proto_id': 441,
+```python
+       {'proto_id': 441,
 
         'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
         'colordbmater': 22390,  # param_randomize(440)               Цвет добора 
@@ -332,14 +335,15 @@
 
         'w': 800,  # random.choice(range(500, 1100))    Ширина 
 
+}
 ```
 
 ### ProtoId 442 РШ СУ DUO-2 Корпусной Шкаф в нишу над инсталляцией
 
 ![biDUO2](./Pictures/bathroom/biDUO_2.jpg)
 
-```json
-        'proto_id': 442,
+```python
+       {'proto_id': 442,
 
         'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
 
@@ -404,6 +408,7 @@
         'typevs3_2': 1,  # param_randomize(455)               Тип верхней филёнки 
         'w': 800,  # random.choice(range(500, 1100))    Ширина 
 
+}
 ```
 
 ## Навесные шкафы
