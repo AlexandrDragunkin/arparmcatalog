@@ -73,6 +73,8 @@
     'w': random.choice(range(500, 1000)),  # Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей
+}
+```
 
 ### ProtoId 402 РШ Антресоль DUO-2
 
