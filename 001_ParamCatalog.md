@@ -606,7 +606,7 @@
     'd': 600,  # random.choice(range(150, 800))     Глубина 
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
     'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
-    'h': 440,  # random.choice(range(400, 1200))    Высота 
+    'h': 440,  # random.choice(range(370, 1200))    Высота 
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
@@ -636,7 +636,7 @@
     'd': 600,  # random.choice(range(150, 800))     Глубина 
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
     'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
-    'h': 440,  # random.choice(range(400, 1200))    Высота 
+    'h': 440,  # random.choice(range(370, 1200))    Высота 
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
@@ -666,7 +666,7 @@
     'd': 600,  # random.choice(range(150, 800))     Глубина 
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
     'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
-    'h': 440,  # random.choice(range(400, 1200))    Высота 
+    'h': 440,  # random.choice(range(370, 1200))    Высота 
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
