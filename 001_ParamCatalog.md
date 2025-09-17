@@ -554,6 +554,44 @@
 | Высота корпуса                  |          |             |              |
 | ВК, мм                          | 440      | 440         | 440          |
 
+:::{tip}
+17/09/2025
+
+1.Добавлены параметры **СЕТОК** вместо полок. Если число сеток больше 0, то ставим сетки.
+
+- 'sotshelf1':  Полка сетчатая в нижнюю нишу
+- 'sotshelf2':  Полка сетчатая в нижнюю нишу
+
+2.Добавлены параметры мягких сидений
+
+- 'seat_bk_gap': 0      Отступ сзади мягкого  - сиденья
+- 'seatfabrics ': 21746    Ткань для мягкого  - сидения
+- 'softseats': 0          Тип мягкого сидения
+
+Типы мягких сидений:
+
+| TValue                   | IValue |
+| :----------------------- | :----- |
+| Нет                      | 0      |
+| Сидушка Corner мягкая    | 10731  |
+| Сидушка Portofino мягкая | 10733  |
+
+Ткани для сидений:
+
+| TValue           | IValue |
+| :--------------- | :----- |
+| Велюр Velutto 03 | 21746  |
+| Велюр Velutto 08 | 21751  |
+| Велюр Velutto 11 | 21752  |
+| Велюр Velutto 17 | 21756  |
+| Велюр Velutto 23 | 21760  |
+| Велюр Velutto 53 | 21773  |
+| Нет              | 0      |
+
+3. Добавлен тип фасада **НЕТ**. Если Фасада во всех секциях **НЕТ**, то свес вместо 20 всего 1 мм.
+
+:::
+
 ### ProtoId 431  РШ Тумба DUO-2
 
 ![DUO-2](./Pictures/Pedestal/DUO-2.jpg)
@@ -572,6 +610,11 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
+    'seat_bk_gap': 0,  # random.choice(range(0, 100))       Отступ сзади мягкого сиденья 
+    'seatfabrics ': 21746,  # param_randomize(499)               Ткань для мягкого сидения 
+    'softseats': 0,  # param_randomize(498)               Тип мягкого сидения 
+    'sotshelf1': 0,  # random.choice(range(0, 5))         Полка сетчатая в нижнюю нишу 
+    'sotshelf2': 0,  # random.choice(range(0, 5))         Полка сетчатая в нижнюю нишу 
     'w': 800,  # random.choice(range(500, 1200))    Ширина 
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
@@ -597,6 +640,11 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
+    'seat_bk_gap': 0,  # random.choice(range(0, 100))       Отступ сзади мягкого сиденья 
+    'seatfabrics ': 21746,  # param_randomize(499)               Ткань для мягкого сидения 
+    'softseats': 0,  # param_randomize(498)               Тип мягкого сидения 
+    'sotshelf1': 0,  # random.choice(range(0, 5))         Полка сетчатая в нижнюю нишу 
+    'sotshelf2': 0,  # random.choice(range(0, 5))         Полка сетчатая в нижнюю нишу 
     'w': 800,  # random.choice(range(750, 1500))    Ширина 
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
@@ -622,6 +670,11 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу 
     'polkstd2': 0,  # random.choice(range(0, 5))         Полки в нишу 
+    'seat_bk_gap': 0,  # random.choice(range(0, 100))       Отступ сзади мягкого сиденья 
+    'seatfabrics ': 21746,  # param_randomize(499)               Ткань для мягкого сидения 
+    'softseats': 0,  # param_randomize(498)               Тип мягкого сидения 
+    'sotshelf1': 0,  # random.choice(range(0, 5))         Полка сетчатая в нижнюю нишу 
+    'sotshelf2': 0,  # random.choice(range(0, 5))         Полка сетчатая в нижнюю нишу 
     'w': 800,  # random.choice(range(750, 1500))    Ширина 
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
