@@ -488,7 +488,7 @@
     'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
     'h': 808,  # random.choice(range(800, 950))     Высота 
-    'h_carga': 138,  # random.choice(range(0, 300))       Размер царги 
+
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
@@ -511,7 +511,7 @@
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
     'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
     'h': 808,  # random.choice(range(580, 700))     Высота 
-    'h_carga': 138,  # random.choice(range(0, 300))       Размер царги 
+
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
@@ -534,7 +534,7 @@
     'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
     'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
     'h': 808,  # random.choice(range(940, 1200))     Высота 
-    'h_carga': 138,  # random.choice(range(0, 300))       Размер царги 
+
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя 
     'w': 600,  # random.choice(range(500, 800))     Ширина 
