@@ -583,7 +583,8 @@
 
 ![boad1](./Pictures/boad/mono-1.jpg)
 
-```
+```python
+{
         'proto_id': 446,
         'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
         'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
@@ -605,14 +606,15 @@
         'polkstd1w4': 0,  #                                    Ширина полки 4 
         'polkstd1w5': 0,  #                                    Ширина полки 5 
         'w': 500,  # random.choice(range(250, 550))     Ширина 
+}
 ```
 
 ### ProtoId 447 РШ СУ MONO-2 Напольный шкаф
 
 ![boad2](./Pictures/boad/mono-2.jpg)
 
-```
-        'proto_id': 447,
+```python
+{        'proto_id': 447,
         'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
         'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
         'd': 450,  # random.choice(range(200, 550))     Глубина 
@@ -636,14 +638,15 @@
         'typevs2_1': 1,  # param_randomize(455)               Тип средней филёнки 
         'typevs3_1': 1,  # param_randomize(455)               Тип верхней филёнки 
         'w': 800,  # random.choice(range(500, 1100))    Ширина 
+        }
 ```
 
 ### ProtoId 448 РШ СУ DUO-2 Напольный шкаф
 
 ![boad3](./Pictures/boad/duo-2.jpg)
 
-```
-        'proto_id': 448,
+```python
+ {       'proto_id': 448,
         'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
         'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
         'colorfsmat2': 22390,  # param_randomize(440)               Цвет фасада Прайм 
@@ -684,5 +687,5 @@
         'typevs3_1': 1,  # param_randomize(455)               Тип верхней филёнки 
         'typevs3_2': 1,  # param_randomize(455)               Тип верхней филёнки 
         'w': 800,  # random.choice(range(500, 1100))    Ширина 
-
+}
 ```
