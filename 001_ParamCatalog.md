@@ -728,9 +728,30 @@
     'h': 1500,  # random.choice(range(1000, 2000))   Высота 
     'id_fixkruk': 11236,  # param_randomize(19)                Крепеж в коробку крюк с дюбелем 
     'id_fixnaves': 11234,  # param_randomize(19)                Id Типа крепежа для навеса 
-    'id_hoock': 24567,  # param_randomize(481)               ID крючка для одежды 
+    'id_hoock': 24567,  # param_randomize(481)               ID крючка для одежды
+    'id_hoock2': 24568,  # param_randomize(481)               ID крючка 2 ряда для одежды 
     'id_mensola': 24572,  # param_randomize(482)               Менсола для полки 
     'n_hoock': 3,  # random.choice(range(2, 5))         Количество крючков 
+    'n_hoock2': 1,  # random.choice(range(0, 5))         Количество крючков 2 ряда для одежды 
     'w': 800,  # random.choice(range(400, 1500))    Ширина 
+}
+```
+
+### ProtoId 452  РШ Панель вешалки с мягкими валиками
+
+![hookspan](./Pictures/wallpanels/hookspanroll.jpg)
+
+```python
+{
+    'proto_id': 452,
+    'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+    'h': 1500,  # random.choice(range(800, 2200))    Высота 
+    'id_hoock': 24567,  # param_randomize(481)               ID крючка для одежды 
+    'id_hoock2': 24568,  # param_randomize(481)               ID крючка 2 ряда для одежды 
+    'n_hoock': 3,  # random.choice(range(2, 5))         Количество крючков 
+    'n_hoock2': 1,  # random.choice(range(0, 5))         Количество крючков 2 ряда для одежды 
+    'seatfabrics': 21746,  # param_randomize(499)               Ткань для обивки валика 
+    'w': 800,  # random.choice(range(450, 1200))    Ширина 
+    'zpos_panhook': 800,  #                                    Положение панели для крючков  
 }
 ```
