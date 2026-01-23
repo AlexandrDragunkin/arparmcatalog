@@ -526,13 +526,16 @@
 {
     'proto_id': 430,
     'colorcmmater': 22378,  # param_randomize(440)               Цвет корпуса 
-    'colorfsmat1': 22393,  # param_randomize(440)               Цвет фасада Прайм 
-    'colorfsmat2': 22393,  # param_randomize(440)               Цвет фасада Прайм 
+    'colorfsmat1': 22393,  # param_randomize(440)               Цвет фасада нижнего ящика только для Прайм 
+    'colorfsmat2': 22393,  # param_randomize(440)               Цвет фасада среднего ящика только для Прайм 
+    'colorfsmat3': 22393,  # param_randomize(440)               Цвет фасада верхнего ящика только для Прайм 
     'd': 320,  # random.choice(range(300, 800))     Глубина 
-    'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
-    'decofsmatc2': 0,  # param_randomize(454)               MDF Отделка фасада 
-    'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
-    'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
+    'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада нижнего ящика
+    'decofsmatc2': 0,  # param_randomize(454)               MDF Отделка фасада сред
+    'decofsmatc3': 0,  # param_randomize(454)               MDF Отделка фасада верхнего ящика
+    'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада нижнего ящика
+    'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада среднего ящика
+    'fasrtype3': 10841,  # param_randomize(446)               Рисунок фасада верхнего ящика
     'h': 808,  # random.choice(range(940, 1200))     Высота 
 
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
