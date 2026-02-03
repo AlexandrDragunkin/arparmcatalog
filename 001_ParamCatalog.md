@@ -372,6 +372,9 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
+    'shshelves_1': 0,  # random.choice(range(0, 5))         Число обувных полок справа 
+    ~'shshelves_2': 0,  # random.choice(range(0, 0))         Число обувных полок секция 2 ~
+    ~'shshelves_3': 0,  # random.choice(range(0, 0))         Число обувных полок секция 3 ~
     'w': 900,  # random.choice(range(800, 1200))    Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
@@ -402,6 +405,9 @@
     'hcok': 70,  # random.choice(range(70, 250))      Высота цоколя
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
+    ~'shshelves_1': 0,  # random.choice(range(0, 0))         Число обувных полок справа ~
+    'shshelves_2': 0,  # random.choice(range(0, 5))         Число обувных полок секция 2 
+    ~'shshelves_3': 0,  # random.choice(range(0, 0))         Число обувных полок секция 3 ~
     'w': 900,  # random.choice(range(800, 1200))    Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
@@ -437,6 +443,9 @@
     'polkstd1': 0,  # random.choice(range(0, 5))         Полки в нишу
     'polkstd2': 0,  # random.choice(range(0, 0))         Полки в нишу
     'polkstd3': 0,  # random.choice(range(0, 5))         Полки в нишу
+    'shshelves_1': 0,  # random.choice(range(0, 5))         Число обувных полок справа 
+    ~'shshelves_2': 0,  # random.choice(range(0, 0))         Число обувных полок секция 2 ~
+    'shshelves_3': 0,  # random.choice(range(0, 5))         Число обувных полок секция 3 
     'w': 1300,  # random.choice(range(1200, 1600))   Ширина
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # param_randomize(367)               Низ фил выс кол-во делителей 
