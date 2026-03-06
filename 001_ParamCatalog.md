@@ -157,6 +157,7 @@
 {
 }
 ```
+
 ## DPROTOID_331  РШ DUO-3 правый
 
 ![_rsh_DUO-3R](./Pictures/RSH_Boad/DUO-3R.jpg)
@@ -165,15 +166,51 @@
 {
 }
 ```
+
 ## DPROTOID_332  РШ DUO-4
+
+![_rsh_DUO-4](./Pictures/RSH_Boad/DUO-4.jpg)
+
+```python
+{
+}
+```
 
 ## DPROTOID_333  РШ TRIO-3
 
+![_rsh_TRIO-3](./Pictures/RSH_Boad/TRIO-3.jpg)
+
+```python
+{
+}
+```
+
 ## DPROTOID_334  РШ TRIO-4
+
+![_rsh_TRIO-3](./Pictures/RSH_Boad/TRIO-4.jpg)
+
+```python
+{
+}
+```
 
 ## DPROTOID_335  РШ TRIO-5
 
+![_rsh_TRIO-5](./Pictures/RSH_Boad/TRIO-5.jpg)
+
+```python
+{
+}
+```
+
 ## DPROTOID_336  РШ TRIO-6
+
+![_rsh_TRIO-6](./Pictures/RSH_Boad/TRIO-6.jpg)
+
+```python
+{
+}
+```
 
 
 ## ProtoID 311 Терминал
@@ -308,7 +345,7 @@
     'colorcmmater': param_randomize(dYAD.colorcmmater),  # Цвет корпуса
     'colorfsmat1': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
     'colorfsmat2': param_randomize(dYAD.colorcmmater),  # Цвет фасада Прайм
-    'd': random.choice(range(150, 800)),  # Глубина
+    'd': 500,        # Глубина
     'decofsmatc1': 0.0,  # MDF Отделка фасада
     'decofsmatc2': 0.0,  # MDF Отделка фасада
     'fasrtype1': 10841.0,  # Рисунок фасада
@@ -317,17 +354,17 @@
     'hantype': 24459.0,  # Тип ручки
     'polkstd1': 0.0,  # Полки в нишу справа
     'polkstd2': 0.0,  # Полки в нишу слева
-    'polkstd1h1': 0  # Позиция высоты полки 1 в правой нише
-    'polkstd1h2': 0  # Позиция высоты полки 2 в правой нише
-    'polkstd1h3': 0  # Позиция высоты полки 3 в правой нише
-    'polkstd1h4': 0  # Позиция высоты полки 4 в правой нише
-    'polkstd1h5': 0  # Позиция высоты полки 5 в правой нише
-    'polkstd2h1': 0  # Позиция высоты полки 1 в левой нише
-    'polkstd2h2': 0  # Позиция высоты полки 2 в левой нише
-    'polkstd2h3': 0  # Позиция высоты полки 3 в левой нише
-    'polkstd2h4': 0  # Позиция высоты полки 4 в левой нише
-    'polkstd2h5': 0  # Позиция высоты полки 5 в левой нише
-    'w': random.choice(range(500, 1500)),  # Ширина
+    'polkstd1h1': 0,  # Позиция высоты полки 1 в правой нише
+    'polkstd1h2': 0,  # Позиция высоты полки 2 в правой нише
+    'polkstd1h3': 0,  # Позиция высоты полки 3 в правой нише
+    'polkstd1h4': 0,  # Позиция высоты полки 4 в правой нише
+    'polkstd1h5': 0,  # Позиция высоты полки 5 в правой нише
+    'polkstd2h1': 0,  # Позиция высоты полки 1 в левой нише
+    'polkstd2h2': 0,  # Позиция высоты полки 2 в левой нише
+    'polkstd2h3': 0,  # Позиция высоты полки 3 в левой нише
+    'polkstd2h4': 0,  # Позиция высоты полки 4 в левой нише
+    'polkstd2h5': 0,  # Позиция высоты полки 5 в левой нише
+    'w': 1000,        # Ширина
     'pusher': 21534,  # Демпфер/Толкатель для "без ручки" Hettich 16904
     'n1delh_1': 0,  # Низ фил выс кол-во делителей 
     'n1delh_2': 0,  # Низ фил выс кол-во делителей
