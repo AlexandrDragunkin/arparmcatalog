@@ -1601,3 +1601,28 @@
     'zpos_panhook': 800,  #                                    Положение панели для крючков  
 }
 ```
+
+### ProtoId 456 РШ Тумба MONO-1 навесная с ящиками
+![mono1box](.Pictures/TumbNaves/Mono1Box.png)
+```python
+{
+    'blockbox1': 1,  # random.choice(range(0, 5))         Количество ящиков 
+    'bxtype': 10804,  # param_randomize(475)               Тип ящика 
+    'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+    'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+    'd': 400,  # random.choice(range(280, 550))     Глубина 
+    'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+    'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+    'h': 180,  # random.choice(range(150, 600))     Высота 
+    'hantype': 24459,  # param_randomize(23)                Тип ручки 
+    'naves': 11787,  # param_randomize(490)               Тип навески 
+    'w': 500,  # random.choice(range(330, 800))     Ширина 
+}
+
+### ProtoId 457 РШ Тумба DUO-2 навесная с ящиками
+
+### ProtoId 458 РШ Тумба MONO-1 навесная с полками
+
+### ProtoId 459 РШ Тумба MONO-2 навесная с полками
+
+### ProtoId 460 РШ Тумба DUO-2 навесная с полками
