@@ -1623,7 +1623,7 @@
 
 ### ProtoId 460 РШ Тумба DUO-2 навесная с полками
 
-![Duo2Polk](./Pictures/TumbNaves/Duo2shelfe.png)
+![Duo2Polk](./Pictures/TumbNaves/duotwoshelfe.jpg)
 
 ```python
 {
