@@ -315,7 +315,7 @@
 
 ## DPROTOID_332  РШ DUO-4
 
-![_rsh_DUO-4](./Pictures/RSH_Boad/DUO-4.jpg)
+![rsh_DUO-4](./Pictures/RSH_Boad/duofour.jpg)
 
 ```python
 {
@@ -387,7 +387,7 @@
 
 ## DPROTOID_333  РШ TRIO-3
 
-![_rsh_TRIO-3](./Pictures/RSH_Boad/TRIO-3.jpg)
+![rsh_TRIO-3](./Pictures/RSH_Boad/TRIO-3.jpg)
 
 ```python
 {
@@ -596,6 +596,9 @@
 
 ```python
 {
+    'proto_id': 335,
+
+    Аналогично DPROTOID_334
 }
 ```
 
@@ -605,6 +608,9 @@
 
 ```python
 {
+    'proto_id': 336,
+
+    Аналогично DPROTOID_334
 }
 ```
 
