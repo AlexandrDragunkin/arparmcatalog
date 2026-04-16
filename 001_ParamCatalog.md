@@ -1603,26 +1603,119 @@
 ```
 
 ### ProtoId 456 РШ Тумба MONO-1 навесная с ящиками
-![mono1box](.Pictures/TumbNaves/Mono1Box.png)
+
+![mono1box](./Pictures/TumbNaves/Mono1Box.png)
+
 ```python
 {
-    'blockbox1': 1,  # random.choice(range(0, 5))         Количество ящиков 
-    'bxtype': 10804,  # param_randomize(475)               Тип ящика 
-    'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
-    'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
-    'd': 400,  # random.choice(range(280, 550))     Глубина 
-    'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
-    'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
-    'h': 180,  # random.choice(range(150, 600))     Высота 
-    'hantype': 24459,  # param_randomize(23)                Тип ручки 
-    'naves': 11787,  # param_randomize(490)               Тип навески 
-    'w': 500,  # random.choice(range(330, 800))     Ширина 
+'blockbox1': 1,  # random.choice(range(0, 5))         Количество ящиков 
+'bxtype': 10804,  # param_randomize(475)               Тип ящика 
+'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+'d': 400,  # random.choice(range(280, 550))     Глубина 
+'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+'h': 180,  # random.choice(range(150, 600))     Высота 
+'hantype': 24459,  # param_randomize(23)                Тип ручки 
+'naves': 11787,  # param_randomize(490)               Тип навески 
+'w': 500,  # random.choice(range(330, 800))     Ширина 
 }
+```
 
 ### ProtoId 457 РШ Тумба DUO-2 навесная с ящиками
 
+Состоит из двух секций которые могут быть заполнены ящиуками или полками каждая. В случае заполнения полками секция закрывается распашной дверкой
+
+![Duo2box](./Pictures/TumbNaves/DUO2Box.png)
+
+```python
+{
+'proto_id': 457,
+'blockbox1': 1,  # random.choice(range(0, 5))         Количество ящиков 
+'blockbox2': 1,  # random.choice(range(0, 5))         Количество ящиков 
+'bxtype': 10804,  # param_randomize(475)               Тип ящика 
+'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+'colorfsmat2': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+'d': 400,  # random.choice(range(280, 550))     Глубина 
+'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+'decofsmatc2': 0,  # param_randomize(454)               MDF Отделка фасада 
+'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
+'h': 180,  # random.choice(range(150, 600))     Высота 
+'hantype': 24459,  # param_randomize(23)                Тип ручки 
+'naves': 11787,  # param_randomize(490)               Тип навески 
+'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель 
+'w': 1000,  # random.choice(range(700, 1200))    Ширина 
+}
+```
+
 ### ProtoId 458 РШ Тумба MONO-1 навесная с полками
+
+![Mono1Polk](./Pictures/TumbNaves/Mono1shelfe.png)
+
+```python
+{
+    'proto_id': 458,
+    'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+    'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+    'd': 400,  # random.choice(range(150, 550))     Глубина 
+    'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+    'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+    'h': 440,  # random.choice(range(300, 1350))    Высота 
+    'hantype': 24459,  # param_randomize(23)                Тип ручки 
+    'naves': 11787,  # param_randomize(490)               Тип навески     '
+    'openside1': 1,  # param_randomize(28)                Открывание двери  
+    'polkstd1': 1,  # random.choice(range(0, 5))         Полки в нишу 
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель 
+    'w': 500,  # random.choice(range(350, 600))     Ширина 
+}
+```
 
 ### ProtoId 459 РШ Тумба MONO-2 навесная с полками
 
+![Mono1Polk](./Pictures/TumbNaves/Mono2shelfe.png)
+
+```python
+{
+    'proto_id': 459,
+    'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+    'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+    'd': 400,  # random.choice(range(150, 550))     Глубина 
+    'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+    'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+    'h': 440,  # random.choice(range(300, 1350))    Высота 
+    'hantype': 24459,  # param_randomize(23)                Тип ручки 
+    'naves': 11787,  # param_randomize(490)               Тип навески     '
+    'openside1': 1,  # param_randomize(28)                Открывание двери  
+    'polkstd1': 1,  # random.choice(range(0, 5))         Полки в нишу 
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель 
+    'w': 500,  # random.choice(range(350, 600))     Ширина 
+}
+```
+
 ### ProtoId 460 РШ Тумба DUO-2 навесная с полками
+
+![Duo2Polk](./Pictures/TumbNaves/Duo2shelfe.png)
+
+```python
+{
+    'proto_id': 460,
+    'colorcmmater': 22390,  # param_randomize(440)               Цвет корпуса 
+    'colorfsmat1': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+    'colorfsmat2': 22390,  # param_randomize(440)               Цвет фасада Прайм 
+    'd': 400,  # random.choice(range(150, 550))     Глубина 
+    'decofsmatc1': 0,  # param_randomize(454)               MDF Отделка фасада 
+    'decofsmatc2': 0,  # param_randomize(454)               MDF Отделка фасада 
+    'fasrtype1': 10841,  # param_randomize(446)               Рисунок фасада 
+    'fasrtype2': 10841,  # param_randomize(446)               Рисунок фасада 
+    'h': 440,  # random.choice(range(300, 1350))    Высота 
+    'hantype': 24459,  # param_randomize(23)                Тип ручки 
+    'naves': 11787,  # param_randomize(490)               Тип навески     '
+    'openside1': 1,  # param_randomize(28)                Открывание двери  
+    'polkstd1': 1,  # random.choice(range(0, 5))         Полки в нишу 
+    'polkstd2': 1,  # random.choice(range(0, 5))         Полки в нишу
+    'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель 
+    'w': 800,  # random.choice(range(350, 600))     Ширина 
+}
+```
