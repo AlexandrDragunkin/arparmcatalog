@@ -1712,7 +1712,6 @@
     'h': 440,  # random.choice(range(300, 1350))    Высота 
     'hantype': 24459,  # param_randomize(23)                Тип ручки 
     'naves': 11787,  # param_randomize(490)               Тип навески     '
-    'openside1': 1,  # param_randomize(28)                Открывание двери  
     'polkstd1': 1,  # random.choice(range(0, 5))         Полки в нишу 
     'polkstd2': 1,  # random.choice(range(0, 5))         Полки в нишу
     'pusher': 21534,  # param_randomize(127)               Демпфер/Толкатель 
