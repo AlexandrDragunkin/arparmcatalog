@@ -12,7 +12,6 @@ project:
   toc:
     - file: 001_ParamCatalog.md
     - file: 002_ParamCatalog.md
-    - file: 003_DUO2_Audit.md
     - file: 999_prim.md
 
 site:
